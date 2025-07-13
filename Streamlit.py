@@ -94,7 +94,7 @@ def show_predict_page():
            
 
             st.subheader("Decision Tree Visualization")
-            st.image("cart.png")
+            st.image("cart1.png")
 
         except ValueError as e:
             st.error(f"An error occurred: {e}")
